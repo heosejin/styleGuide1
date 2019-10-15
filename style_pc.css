@@ -7,6 +7,7 @@ html {
 
 body {
   margin: 0;
+  display: block;
   background-image: url('bg.png');
   background-size: cover;
   background-attachment: fixed;
@@ -120,12 +121,12 @@ nav .menu:hover {
   margin: 0 0 2vw 0;
 }
 
-.ti01 span {
+.ti01 .txt01 {
   font-weight: 700;
 }
 
 .ti02 {
-  font-size: 1.5vw;
+  font-size: 2vw;
   font-weight: 400;
   margin: 0;
 }
@@ -138,7 +139,7 @@ nav .menu:hover {
 	height: 2px;
 	font-size: 0px;
 	line-height: 0px;
-	margin: 0 1vw 0.5vw 1vw;
+	margin: 0 1vw 0.6vw 1vw;
 }
 
 .about_content {
@@ -147,12 +148,6 @@ nav .menu:hover {
   line-height: 150%;
   margin: 0 0 20vh 0;
 }
-
-.ti04 span {
-  font-weight: 700;
-}
-
-
 
 .ti03, .ti04 {
   margin: 0 0 5vw 0;
@@ -166,13 +161,10 @@ nav .menu:hover {
   margin: 0 0 2vw 0;
 }
 
-.ti04 .kr {
-  font-size: 1.3vw;
-}
-
-.ti05 {
+.ti03 .kr {
   font-size: 1.2vw;
-  font-weight: 700;
+  font-style: normal;
+  transform: rotate(-0.005deg);
 }
 
 .ti05 span {
@@ -181,6 +173,7 @@ nav .menu:hover {
 
 .hover {
   position: relative;
+  font-weight: 700;
 }
 
 .hover:after {
@@ -204,9 +197,18 @@ nav .menu:hover {
 /* footer */
 footer {
   position: fixed;
-  right: 8%;
   bottom: 10%;
+  z-index: 800;
+}
+
+.name {
+  position: fixed;
   font-weight: 300;
   font-size: 13px;
   color: #666;
+  right: 8%;
+}
+
+.m_contact {
+  display: none;
 }
