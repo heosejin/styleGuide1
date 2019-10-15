@@ -46,6 +46,7 @@ nav li:first-child {
 .about_content {
   width: 80%;
   font-size: 4vw;
+  margin: 0 0 20vh 0;
 }
 
 .ti03 .kr {
