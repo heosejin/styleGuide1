@@ -29,37 +29,37 @@ nav li:first-child {
 }
 
 .ti01 {
-  font-size: 6.5vw;
-  margin: 0 0 2vw 0;
+  font-size: 8vw;
+  margin: 0 0 3vw 0;
 }
 
 .ti02 {
-  font-size: 3.5vw;
+  font-size: 4vw;
 }
 
 .bu::after {
-  width: 6vw;
+  width: 7vw;
 	height: 1px;
-	margin: 0 2vw 1.1vw 2vw;
+	margin: 0 2.5vw 1.1vw 2.5vw;
 }
 
 .about_content {
   width: 80%;
-  font-size: 3vw;
+  font-size: 4vw;
   line-height: 150%;
   margin: 0 0 15vh 0;
 }
 
 .ti03 .kr {
-  font-size: 2.8vw;
+  font-size: 3.8vw;
 }
 
 .ti03, .ti04 {
-  margin: 0 0 10vw 0;
+  margin: 0 0 15vw 0;
 }
 
 .ti03 p:first-child, .ti04 p:first-child {
-  margin: 0 0 5vw 0;
+  margin: 0 0 8vw 0;
 }
 
 .ti05 span {
