@@ -29,12 +29,12 @@ nav li:first-child {
 }
 
 .ti01 {
-  font-size: 8vw;
+  font-size: 10vw;
   margin: 0 0 3vw 0;
 }
 
 .ti02 {
-  font-size: 4vw;
+  font-size: 6vw;
 }
 
 .bu::after {
@@ -45,13 +45,13 @@ nav li:first-child {
 
 .about_content {
   width: 80%;
-  font-size: 4vw;
+  font-size: 6vw;
   line-height: 150%;
   margin: 0 0 15vh 0;
 }
 
 .ti03 .kr {
-  font-size: 3.8vw;
+  font-size: 5.8vw;
 }
 
 .ti03, .ti04 {
@@ -86,7 +86,7 @@ footer {
 .m_contact {
   position: fixed;
   display: inline;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 14px;
   left: 8%;
 }

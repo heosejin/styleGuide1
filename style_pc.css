@@ -8,9 +8,10 @@ html {
 body {
   margin: 0;
   display: block;
-  background-image: url('bg.png');
+  background-image: url('bg.png') repeat;
   background-size: cover;
   background-attachment: fixed;
+  overflow: hidden;
 }
 
 a, a:visited, a:hover, a:focus, a:active, a:link {
