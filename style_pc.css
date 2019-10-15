@@ -12,7 +12,6 @@ body {
   background-size: cover;
   background-attachment: fixed;
   overflow: hidden;
-  -webkit-overflow-scrolling: touch;
 }
 
 a, a:visited, a:hover, a:focus, a:active, a:link {
