@@ -21,7 +21,7 @@ nav li:first-child {
 /* section == about */
 #about {
   max-width: 80%;
-  margin: 20vh auto 0 auto;
+  margin: 20vh auto 20vh auto;
 }
 
 .about_title {
@@ -34,7 +34,7 @@ nav li:first-child {
 }
 
 .ti02 {
-  font-size: 4vw;
+  font-size: 4.5vw;
 }
 
 .bu::after {
@@ -45,21 +45,19 @@ nav li:first-child {
 
 .about_content {
   width: 80%;
-  font-size: 4vw;
-  line-height: 150%;
-  margin: 0 0 15vh 0;
+  font-size: 4.5vw;
 }
 
 .ti03 .kr {
-  font-size: 3.8vw;
+  font-size: 4.2vw;
 }
 
 .ti03, .ti04 {
-  margin: 0 0 13vw 0;
+  margin: 0 0 10vw 0;
 }
 
 .ti03 p:first-child, .ti04 p:first-child {
-  margin: 0 0 8vw 0;
+  margin: 0 0 6vw 0;
 }
 
 .ti05 span {
