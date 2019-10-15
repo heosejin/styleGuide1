@@ -7,9 +7,9 @@ html {
 
 body {
   margin: 0;
-  background-image: url('bg.png') fixed;
+  background-image: url('bg.png');
   background-size: cover;
-  background-attachment: scroll;
+  background-attachment: fixed;
 }
 
 a, a:visited, a:hover, a:focus, a:active, a:link {
