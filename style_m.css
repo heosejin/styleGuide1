@@ -21,7 +21,7 @@ nav li:first-child {
 /* section == about */
 #about {
   max-width: 80%;
-  margin: 20vh auto 20vh auto;
+  margin: 20vh auto 0 auto;
 }
 
 .about_title {
@@ -45,11 +45,11 @@ nav li:first-child {
 
 .about_content {
   width: 80%;
-  font-size: 4.5vw;
+  font-size: 4vw;
 }
 
 .ti03 .kr {
-  font-size: 4.2vw;
+  font-size: 3.9vw;
 }
 
 .ti03, .ti04 {

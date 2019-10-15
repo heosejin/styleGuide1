@@ -3,16 +3,16 @@ html {
   font-size: 100%;
   height: 100%;
   width: 100%;
-}
-
-body {
-  margin: 0;
-  display: block;
   background-image: url('bg.png');
   background-size: cover;
   background-attachment: fixed;
   overflow:auto;
   -webkit-overflow-scrolling: touch;
+}
+
+body {
+  margin: 0;
+  display: block;
 }
 
 a, a:visited, a:hover, a:focus, a:active, a:link {
@@ -107,7 +107,7 @@ nav .menu:hover {
 #about {
   position: relative;
   max-width: 60%;
-  margin: 24vh auto 20vh auto;
+  margin: 24vh auto 0 auto;
   font-weight: 300;
   font-style: italic;
 }
@@ -148,7 +148,7 @@ nav .menu:hover {
   float: right;
   font-size: 1.4vw;
   line-height: 150%;
-  margin: 0;
+  margin: 0 0 24vh 0;
 }
 
 .ti03, .ti04 {
