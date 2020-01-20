@@ -78,7 +78,7 @@ body {
 }
 
 .h1 {
-  font-size: 46px;
+  font-size: 34px;
   font-weight: 600;
 }
 
@@ -113,7 +113,7 @@ body {
 .b_ti {
   font-size: 16px;
   font-weight: 400;
-  color: #707070;
+  color: #232323;
 }
 
 .h5::before {
